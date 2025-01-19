@@ -1,0 +1,24 @@
+Introducción: Estos scripts ( push_unico.bat / push_unico.sh para un solo repositorio y push_multi.bat / push_multi.sh para múltiples repositorios) simplifican el proceso de subir los cambios locales a un repositorio Git remoto.
+
+Caso 1: Un solo repositorio
+
+Ubicación del script: Coloca el script push_unico.bat (Windows) o push_unico.sh (Linux/macOS) en la carpeta raíz de tu proyecto Git.
+
+Ejecución:
+
+Windows: Haz doble clic en push_unico.bat o ábrelo desde la línea de comandos.
+Linux/macOS: Abre una terminal en la carpeta raíz del proyecto y ejecuta ./push_unico.sh. Asegúrate de que el script tenga permisos de ejecución (chmod +x push_unico.sh).
+Explicación del script push_unico (Ejemplo):
+
+
+
+Caso 2: Múltiples repositorios
+
+Ubicación del script principal: Coloca el script push_multi.bat (Windows) o push_multi.sh (Linux/macOS) en la carpeta que contiene las carpetas raíz de tus proyectos Git.
+
+Ubicación de los scripts individuales: Coloca una copia del script push_unico.bat o push_unico.sh (según tu sistema operativo) en la carpeta raíz de cada uno de los proyectos Git.
+
+Ejecución:
+
+Windows: Haz doble clic en push_multi.bat o ábrelo desde la línea de comandos.
+Linux/macOS: Abre una terminal en la carpeta que contiene los proyectos y ejecuta ./push_multi.sh. Asegúrate de que el script tenga permisos de ejecución (chmod +x push_multi.sh).
