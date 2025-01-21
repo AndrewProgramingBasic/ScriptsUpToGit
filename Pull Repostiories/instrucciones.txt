@@ -1,0 +1,10 @@
+Introducción: Este script (pullgit.sh) automatiza la ejecución del comando git pull en todos los subdirectorios que contienen repositorios Git dentro del directorio donde se ejecuta el script. Esto es útil para actualizar varios proyectos locales de una sola vez.
+
+Uso:
+
+Ubicación del script: Coloca el script pullgit.sh en el directorio que contiene las carpetas raíz de tus proyectos Git. Por ejemplo, si tienes una carpeta llamada proyectos y dentro de ella tienes proyecto1, proyecto2, etc., coloca pullgit.sh dentro de proyectos.
+
+Ejecución:
+
+Abre una terminal en el directorio donde se encuentra pullgit.sh (en el ejemplo anterior, dentro de proyectos).
+Ejecuta el script con el comando ./pullgit.sh. Asegúrate de que el script tenga permisos de ejecución. Si no los tiene, ejecuta chmod +x pullgit.sh antes de ejecutarlo.
